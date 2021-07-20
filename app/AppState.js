@@ -1,14 +1,9 @@
-import Value from "./Models/Shoe.js"
 import { EventEmitter } from "./Utils/EventEmitter.js"
 import { isValidProp } from "./Utils/isValidProp.js"
 
 class AppState extends EventEmitter {
-  /** @type {Value[]} */
-  values = []
-
-  balance = 100
-  shoes = []
-
+  /** @type {Question} */
+  questions = []
 }
 
 
